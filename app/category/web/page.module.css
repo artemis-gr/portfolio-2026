@@ -17,14 +17,14 @@
 .catalog {
   column-count: 2;
   column-gap: 38px;
-  max-width: 980px;
+  max-width: none;
 }
 
 .entry {
   break-inside: avoid;
   display: inline-block;
   width: 100%;
-  margin: 0 0 30px;
+  margin: 0 0 50px;
   vertical-align: top;
 }
 
@@ -42,7 +42,8 @@
 .title {
   margin: 0;
   font-family: inherit;   /* ← remove Space Grotesk */
-  font-size: 0.98rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
   line-height: 1.38;
   letter-spacing: normal;
   font-weight: normal;
@@ -76,6 +77,7 @@
   object-fit: cover;
   display: block;
   background: #ecece8;
+  border: 1px solid var(--accent);
 }
 
 .excerpt {
@@ -96,6 +98,7 @@
   color: var(--accent);
   font-size: 0.88rem;
   line-height: 1.25;
+  margin-top: 5px;
 }
 
 .meta li {
@@ -135,5 +138,17 @@
 
   .meta {
     font-size: 0.84rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .catalog {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1600px) {
+  .catalog {
+    column-count: 4;
   }
 }
