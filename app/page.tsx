@@ -45,6 +45,7 @@ const folders: Folder[] = [
       { title: "Auditpedia", href: "/project/auditpedia" },
       { title: "BRCA", href: "/project/brca" },
       { title: "Cook 8", href: "/project/cook8" },
+      { title: "Curating Data", href: "/project/curating-data" },
     ],
   },
   {
