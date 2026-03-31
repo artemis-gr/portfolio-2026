@@ -177,13 +177,11 @@ export default function WebCategoryPage() {
       <header className="site-header">
         <h1>
           Index of / <a href="/">Artemis Gryllaki</a> /{" "}
-          <a href="/category/web">Web &amp; Infrastructure</a> /
+          <a href="/category/web" className="active">Web &amp; Infrastructure</a> /
         </h1>
 
         <p className="intro">
-          Websites, publishing platforms, backend systems, hosting, deployment,
-          and infrastructure work for cultural, editorial, and collective
-          contexts.
+          Websites and infrastructure for cultural, research, collective, and commissioned projects.
         </p>
       </header>
 

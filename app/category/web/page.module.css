@@ -4,7 +4,7 @@
 
 .backLink {
   color: var(--accent);
-  font-size: 0.96rem;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
@@ -35,6 +35,7 @@
 
 .entry:hover {
   background: rgba(92,107,192,0.06);
+  background: rgba(92, 107, 192, 0.08);
 }
 
 .header {
