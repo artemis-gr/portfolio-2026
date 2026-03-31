@@ -257,6 +257,7 @@ h1 a:hover {
     margin-bottom: 12px;
     padding-bottom: 8px;
     font-size: clamp(2rem, 10vw, 3rem);
+    line-height: 2.5rem;
   }
 
   .intro {

@@ -10,7 +10,7 @@ const projects = [
       // "/img/projects/exdisco/detail-02.png",
     ],
     excerpt:
-      "Development of a custom WordPress theme for EX DISCO, based on a supplied visual identity and UI. The project focused on translating bold graphic layouts into a responsive frontend, refining performance, and reworking the mobile experience.",
+      "Custom WordPress theme translating bold graphic layouts into a responsive frontend, with performance and mobile optimisation.",
     meta: ["WordPress", "Frontend", "Implementation", "Responsive"],
   },
   {
@@ -26,21 +26,16 @@ const projects = [
     meta: ["Frontend", "Layout", "Visual system"],
   },
   {
-    slug: "boogieland",
-    title: "Boogieland Website",
-    year: "2024–2025",
+    slug: "syster-papyri-magicae",
+    title: "Syster Papyri Magicae",
+    year: "2020",
     images: [
-      "/img/projects/boogieland/detail-01.png",
-      "/img/projects/boogieland/detail-02.png",
+      "/img/projects/syster-papyri-magicae/cover.png",
+      "/img/projects/syster-papyri-magicae/detail-01.png",
     ],
     excerpt:
-      "Development of a custom WordPress platform for Boogieland Boxing Club, in collaboration with the graphic design team. The project includes a flexible block-based system for building pages, alongside integrated features such as events, scheduling, news, and booking connections. Server hosting, administration and maintenance.",
-    meta: [
-      "WordPress",
-      "Frontend",
-      "Blocks",
-      "Maintenance",
-    ],
+      "Experimental website exploring gender exclusion in tech through feminist stories, practices, and references, using narrative interface design and playful, editable structures.",
+    meta: ["Web platform", "Wiki", "Interaction design"],
   },
   {
     slug: "kat",
@@ -51,8 +46,20 @@ const projects = [
       "/img/projects/kat/detail-02.png",
     ],
     excerpt:
-      "Development of a lightweight portfolio website for designer Kat, based on a supplied visual identity. Built with static HTML, CSS, and JavaScript, focusing on clarity, performance, and responsive behaviour. Includes setup, deployment, and hosting.",
+      "Lightweight portfolio website for designer Kat, built with HTML, CSS, and JavaScript. Focused on clarity, performance, and responsive behaviour.",
     meta: ["Frontend", "Static site", "Responsive", "Hosting"],
+  },
+  {
+    slug: "boogieland",
+    title: "Boogieland Website",
+    year: "2024–2025",
+    images: [
+      "/img/projects/boogieland/detail-01.png",
+      "/img/projects/boogieland/detail-02.png",
+    ],
+    excerpt:
+      "Custom WordPress site for Boogieland Boxing Club, built with a flexible block-based system and integrated events, scheduling, and booking features.",
+    meta: ["WordPress", "Frontend", "Blocks", "Maintenance"],
   },
   {
     slug: "amysuowu",
@@ -63,7 +70,7 @@ const projects = [
       // "/img/projects/amysuowu/detail-02.png",
     ],
     excerpt:
-      "Redevelopment of artist Amy Suo Wu’s website from Drupal to a custom WordPress theme. The project involved restructuring content, rebuilding the frontend, and reworking the mobile view. Server setup, hosting on a VPS, and maintenance.",
+      "Redevelopment of artist Amy Suo Wu’s website from Drupal to a custom WordPress theme, with content restructuring, frontend rebuild, and new mobile view.",
     meta: ["WordPress", "Frontend", "Migration", "Maintenance"],
   },
   {
@@ -75,8 +82,20 @@ const projects = [
       "/img/projects/them-all/detail-02.png",
     ],
     excerpt:
-      "Re-development of an online publishing platform for Them, All, a research-driven magazine exploring feminist, queer, and antiracist perspectives. Migrated from a previous system to a lightweight static website, improving performance and maintainability while preserving the project's experimental structure. Deployed and hosted on Systerserver, a feminist community-run infrastructure using open-source tools.",
+      "Re-development of the Them, All publishing platform into a lightweight static site. Deployed on Systerserver, a feminist community-run infrastructure.",
     meta: ["Frontend", "Static site", "Migration", "FOSS hosting"],
+  },
+  {
+    slug: "brca",
+    title: "Borough Road Collection Archive",
+    year: "2023",
+    images: [
+      "/img/projects/brca/detail-01.png",
+      "/img/projects/brca/detail-02.png",
+    ],
+    excerpt:
+      "Experimental MediaWiki-based archive exploring collective annotation and alternative ways of engaging with digital collections. Visitors act as curators and storytellers through speculative promts",
+    meta: ["Web platform", "Interaction design", "MediaWiki", "Research"],
   },
   {
     slug: "37-degrees",
@@ -87,20 +106,41 @@ const projects = [
       "/img/projects/37/detail-02.png",
     ],
     excerpt:
-      "Custom WordPress portfolio for 37° Architecture Studio, based on a supplied design. Focus on precise layout implementation, typography, and a calm browsing experience for presenting architectural projects. Includes CMS setup, deployment, and hosting.",
+      "Custom WordPress portfolio for 37° Architecture Studio, focusing on precise layout implementation, typography, and a calm browsing experience.",
     meta: ["WordPress", "Frontend", "CMS", "Hosting"],
   },
   {
-    slug: "brca",
-    title: "Borough Road Collection Archive",
-    year: "2023",
+    slug: "softwear-directory",
+    title: "Softwear Directory",
+    year: "2023–2025",
     images: [
-      // "/img/projects/brca/detail-01.png",
-      "/img/projects/brca/detail-02.png",
+      "/img/projects/softwear-directory/detail-01.png",
+      "/img/projects/softwear-directory/cover.png",
     ],
     excerpt:
-      "Design and development of an experimental online archive built on MediaWiki, exploring collective annotation and alternative ways of engaging with digital collections. This research project invites visitors to act as curators, storytellers, and interpreters through prompts and interactive roles.",
-    meta: ["Web platform", "Interaction design", "MediaWiki", "Research"],
+      "Structured, searchable publishing directory built from an archive and shaped for browsing, filtering, and long-term editorial use.",
+    meta: ["MediaWiki", "Semantic MediaWiki", "JavaScript"],
+  },
+  {
+    slug: "prikbord",
+    title: "Prikbord.page",
+    year: "2023",
+    images: ["/img/projects/prikbord/detail-01.png"],
+    excerpt:
+      "Infrastructure and backend development for Prikbord.page, a collective agenda for cultural events in Rotterdam. Includes server migration, reverse proxy setup, backups, and ongoing system administration.",
+    meta: ["Backend", "Infrastructure", "Sysadmin", "Migration"],
+  },
+  {
+    slug: "feminist-hack-meetings",
+    title: "Feminist Hack Meetings Wiki",
+    year: "2021–2024",
+    images: [
+      "/img/projects/fhm-wiki/cover.png",
+      "/img/projects/fhm-wiki/detail-01.png",
+    ],
+    excerpt:
+      "Wiki documenting the Feminist Hack Meetings (FHM), archiving sessions, discussions, and collective outputs from research gatherings on feminist technological practices.",
+    meta: ["Wiki", "Documentation", "Community infrastructure"],
   },
   {
     slug: "tap-peertube",
@@ -108,31 +148,8 @@ const projects = [
     year: "2023",
     images: ["/img/projects/tube/detail-01.png"],
     excerpt:
-      "Setup and customization of a PeerTube-based video platform for a collective of artists, researchers, and activists. Deployed on a community-run server, the project supports autonomous publishing, open licenses, and alternative distribution infrastructures. Includes theming, configuration, and ongoing maintenance.",
+      "Collective work, setting up and customising a PeerTube instance for flinta* artists, researchers, and activists. Deployed on systerserver, the project supports autonomous publishing, open licenses, and alternative distribution infrastructures.",
     meta: ["PeerTube", "Infrastructure", "FOSS", "Hosting"],
-  },
-  {
-    slug: "prikbord",
-    title: "Prikbord.page",
-    year: "2023",
-    images: [
-      "/img/projects/prikbord/detail-01.png",
-    ],
-    excerpt:
-      "Infrastructure and backend development for Prikbord.page, a collective agenda for cultural events in Rotterdam. Work included server migration, reverse proxy setup, backups, and ongoing system administration to support a shared platform used by independent venues and communities.",
-    meta: ["Backend", "Infrastructure", "Sysadmin", "Migration"],
-  },
-  {
-    slug: "softwear-directory",
-    title: "Softwear Directory",
-    year: "2023–2025",
-    images: [
-      "/img/projects/softwear-directory/cover.png",
-      // "/img/projects/softwear-directory/detail-01.png",
-    ],
-    excerpt:
-      "Structured, searchable publishing directory built from an archive and shaped for browsing, filtering, and long-term editorial use.",
-    meta: ["MediaWiki", "Semantic MediaWiki", "JavaScript"],
   },
   {
     slug: "birdcall-wiki",
@@ -205,7 +222,7 @@ export default function WebCategoryPage() {
             </div>
 
             <span className={styles.excerpt}>
-              {project.year} — {project.excerpt}
+              {project.excerpt}
             </span>
 
             <ul className={styles.meta}>
